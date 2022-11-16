@@ -18,3 +18,4 @@
           offer: windowsserver
           sku: 2022-datacenter-azure-edition-core
           version: latest
+        public_ip_allocation_method: Disabled

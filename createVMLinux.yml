@@ -19,3 +19,4 @@
           sku: ol86-lvm
           version: latest
         ssh_password_enabled: yes
+        public_ip_allocation_method: Disabled
