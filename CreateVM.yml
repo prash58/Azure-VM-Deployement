@@ -11,7 +11,7 @@
         admin_username: "testazure83@gmail.com"
         admin_password: "Azuretest@123"
         image:
-          offer: CentOS
-          publisher: OpenLogic
-          sku: '7.1'
-          version: latest
+          offer: Windows Server
+          publisher: microsoftwindowsserver
+          sku: windowsserver
+          #version: latest
