@@ -11,7 +11,7 @@
         admin_username: "testazure83@gmail.com"
         admin_password: "Azuretest@123"
         image:
-          offer: Windows Server
-          publisher: microsoftwindowsserver
-          sku: windowsserver
-          #version: latest
+          publisher:  microsoftwindowsserver
+          offer: windowsserver
+          sku: 2022-datacenter-azure-edition-core
+          version: 2022-datacenter-azure-edition-core
