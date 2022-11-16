@@ -15,7 +15,7 @@
         os_type: Linux
         ssh_password_enabled: yes
         image:
-          publisher:  redhat
-          offer: rhel-20190605
-          sku: 7_4-ARM
+          publisher:  canonical
+          offer: 0001-com-ubuntu-server-bionic
+          sku: 18_04-lts-ARM
           version: latest
