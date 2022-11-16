@@ -3,8 +3,11 @@
   tasks:
     - name: Create VM with defaults
       azure_rm_virtualmachine:
-        resource_group: myResourceGroup
-        name: testvm10
+        ad_user: "ansibleuser@testazure83gmail.onmicrosoft.com"
+        password: "Ansible@123"
+        subscription_id: "cefc0075-5612-4b84-bf5e-4e143487b9ed"
+        resource_group: test1_group
+        name: testvm2
         admin_username: "testazure83@gmail.com"
         admin_password: "Azuretest@123"
         image:
