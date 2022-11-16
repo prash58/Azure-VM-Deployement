@@ -13,9 +13,9 @@
         vm_size: Standard_B1s
         managed_disk_type: Standard_LRS
         os_type: Linux
+        ssh_password_enabled: yes
         image:
           publisher:  redhat
           offer: rhel-20190605
           sku: 7_4-ARM
-          version: 7.4
-        ssh_password_enabled: yes
+          version: latest
