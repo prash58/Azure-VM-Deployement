@@ -5,3 +5,6 @@
       azure_rm_virtualmachine_info:
         resource_group: test1
         name: test1
+        ad_user: "ansibleuser@testazure83gmail.onmicrosoft.com"
+        password: "Ansible@123"
+        subscription_id: "cefc0075-5612-4b84-bf5e-4e143487b9ed"
