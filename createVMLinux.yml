@@ -12,10 +12,10 @@
         admin_password: "pass@123"
         vm_size: Standard_B1s
         managed_disk_type: Standard_LRS
-        #os_type: Linux
-        ssh_password_enabled: yes
+        
         image:
-          publisher:  canonical
+          publisher: canonical
           offer: 0001-com-ubuntu-server-bionic
           sku: 18_04-lts-ARM
           version: latest
+        ssh_password_enabled: yes
