@@ -1,1 +1,21 @@
-
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Create VM with defaults
+      azure_rm_virtualmachine:
+        ad_user: "ansibleuser@testazure83gmail.onmicrosoft.com"
+        password: "Ansible@123"
+        subscription_id: "cefc0075-5612-4b84-bf5e-4e143487b9ed"
+        resource_group: test1_group
+        name: testvm3
+        admin_username: "testvm2"
+        admin_password: "pass@123"
+        vm_size: Standard_B1s
+        managed_disk_type: Standard_LRS
+        os_type: Linux
+        image:
+          publisher:  redhat
+          offer: rhel-20190605
+          sku: "8"
+          version: latest
+        ssh_password_enabled: yes
