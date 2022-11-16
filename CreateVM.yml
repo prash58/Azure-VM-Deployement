@@ -11,6 +11,7 @@
         admin_username: "testazure83@gmail.com"
         admin_password: "Azuretest@123"
         vm_size: Standard_B1s
+        managed_disk_type: Standard_LRS
         image:
           publisher:  microsoftwindowsserver
           offer: windowsserver
