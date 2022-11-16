@@ -1,0 +1,12 @@
+--- create resource group in azure subscription
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: creating RG
+      azure_rm_resourcegroup:
+        name: first-rg
+        location: eastus
+      register: rg
+    - debug:
+        var: rg
+      
