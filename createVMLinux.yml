@@ -16,6 +16,6 @@
         image:
           publisher:  redhat
           offer: rhel-20190605
-          sku: 8
-          version: 8.0
+          sku: 7_4-ARM
+          version: 7.4
         ssh_password_enabled: yes
