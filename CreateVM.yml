@@ -8,8 +8,8 @@
         subscription_id: "cefc0075-5612-4b84-bf5e-4e143487b9ed"
         resource_group: test1_group
         name: testvm2
-        admin_username: "testazure83@gmail.com"
-        admin_password: "Azuretest@123"
+        admin_username: "testvm2"
+        admin_password: "pass@123"
         vm_size: Standard_B1s
         managed_disk_type: Standard_LRS
         os_type: Windows
