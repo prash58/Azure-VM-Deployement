@@ -3,5 +3,5 @@
 - name: Git Hub Integration check
   hosts: localhost
   tasks:
-    debug:
-      msg: "Hooray!, message coming from Git Hub"
+    - debug:
+        msg: "Hooray!, message coming from Git Hub"
