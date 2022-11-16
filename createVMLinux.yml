@@ -12,7 +12,7 @@
         admin_password: "pass@123"
         vm_size: Standard_B1s
         managed_disk_type: Standard_LRS
-        os_type: Linux
+        #os_type: Linux
         ssh_password_enabled: yes
         image:
           publisher:  canonical
