@@ -7,7 +7,7 @@
         password: "Ansible@123"
         subscription_id: "cefc0075-5612-4b84-bf5e-4e143487b9ed"
         resource_group: test1_group
-        name: testvm3
+        name: {{vm_name}}
         admin_username: "testvm2"
         admin_password: "pass@123"
         vm_size: Standard_B1s
