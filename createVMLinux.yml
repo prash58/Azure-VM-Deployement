@@ -16,6 +16,6 @@
         image:
           publisher: canonical
           offer: 0001-com-ubuntu-server-bionic
-          sku: 18_04-lts-ARM
+          sku: "18_04-lts-ARM"
           version: latest
         ssh_password_enabled: yes
