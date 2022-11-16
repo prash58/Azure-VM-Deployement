@@ -10,6 +10,7 @@
         name: testvm2
         admin_username: "testazure83@gmail.com"
         admin_password: "Azuretest@123"
+        vm_size: Standard_B1s
         image:
           publisher:  microsoftwindowsserver
           offer: windowsserver
