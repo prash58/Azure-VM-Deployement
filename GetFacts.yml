@@ -1,6 +1,8 @@
 ---
 
 - hosts: localhost
+  connection: local
   tasks:
     - name: Get facts for current logged in user
       azure.azcollection.azure_rm_account_info:
+        
