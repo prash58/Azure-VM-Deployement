@@ -14,7 +14,7 @@
     ansible_winrm_server_cert_validation: ignore
     connection_type: basic
   tasks:
-    - win_ping:
+    #- win_ping:
     - name: Install the Chrome
       ansible.windows.win_package:
         path: http://dl.google.com/chrome/install/375.126/chrome_installer.exe
