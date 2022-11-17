@@ -45,3 +45,15 @@
         name: "git"
         state: present
       when: git=="Yes"
+
+    - name: install Putty
+      win_chocolatey:
+        name: "putty"
+        state: present
+      when: putty=="Yes"
+
+    - name: install FileZilla
+      win_chocolatey:
+        name: "filezilla"
+        state: present
+      when: filezilla=="Yes"
