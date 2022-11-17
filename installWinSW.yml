@@ -1,11 +1,11 @@
 ---
 - hosts: "{{vm_name}}"
-  connection_type: basic
   vars:
     ansible_user: "testuser"
     ansible_password: "pass@123"
     ansible_connection: winrm
     ansible_winrm_server_cert_validation: ignore
+    connection_type: basic
   tasks:
     #- name: Install the Chrome
       #ansible.windows.win_package:
