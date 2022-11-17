@@ -27,7 +27,6 @@
         name: "googlechrome"
         state: absent
       when: chrome=="Yes"
-      "Yes"
     
     - name: install 7Zip
       win_chocolatey:
