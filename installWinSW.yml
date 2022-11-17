@@ -25,17 +25,17 @@
     - name: install chrome
       win_chocolatey:
         name: "googlechrome"
-        state: present
+        state: absent
       when: "{{chrome}}" == "Yes"
     
     - name: install 7Zip
       win_chocolatey:
         name: "7zip"
-        state: present
+        state: absent
       when: "{{zip}}" == "Yes"
 
     - name: install Notepad ++
       win_chocolatey:
         name: "notepadplusplus"
-        state: present
+        state: absent
       when: "{{notepad}}" == "Yes"
