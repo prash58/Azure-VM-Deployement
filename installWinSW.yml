@@ -19,5 +19,6 @@
       win_package:
         path: http://dl.google.com/chrome/install/375.126/chrome_installer.exe
         #state: present
-        product_id: '{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}'
+        #product_id: '{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}'
+        product_id: {00376-40000-00000-AA947}
         arguments: /install /passive /norestart
