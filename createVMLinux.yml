@@ -1,7 +1,7 @@
 - hosts: localhost
   connection: local
   tasks:
-    - name: Create VM with defaults
+    - name: Create Linux VM
       azure_rm_virtualmachine:
         ad_user: "ansibleuser@testazure83gmail.onmicrosoft.com"
         password: "Ansible@123"
