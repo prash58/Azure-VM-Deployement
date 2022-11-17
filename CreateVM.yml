@@ -17,6 +17,6 @@
           publisher:  microsoftwindowsserver
           offer: windowsserver
           #sku: 2022-datacenter-azure-edition-core
-          sku: 2016-datacenter-ARM
+          sku: 2016-datacenter-smalldisk-ARM
           version: latest
         #public_ip_allocation_method: Disabled
