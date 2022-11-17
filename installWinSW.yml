@@ -1,10 +1,15 @@
 ---
 - hosts: {{vm_name}}
-- name: Install the Chrome
-  ansible.windows.win_package:
-    path: http://dl.google.com/chrome/install/375.126/chrome_installer.exe
-    #product_id: '{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}'
-    arguments: /install /passive /norestart
+  connection_type: basic
   vars:
-    ansible_become_user: "testuser"
-    ansible_become_password: "pass@123"
+    ansible_user: "testuser"
+    ansible_password: "pass@123"
+    ansible_connection: winrm
+    ansible_winrm_server_cert_validation: ignore
+  tasks:
+    #- name: Install the Chrome
+      #ansible.windows.win_package:
+        #path: http://dl.google.com/chrome/install/375.126/chrome_installer.exe
+        #product_id: '{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}'
+        #arguments: /install /passive /norestart
+    - win_ping:
