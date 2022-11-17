@@ -1,5 +1,12 @@
 ---
-- hosts: "{{vm_name}}"
+- hosts: localhost
+  tasks:
+    - name: Adding host to temporary inventory
+      add_host:
+        name: "{{vm_name}}"
+        group: temphost
+
+- hosts: temphost
   vars:
     ansible_user: "testuser"
     ansible_password: "pass@123"
