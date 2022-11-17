@@ -1,5 +1,5 @@
 ---
-- hosts: {{vm_name}}
+- hosts: "{{vm_name}}"
   connection_type: basic
   vars:
     ansible_user: "testuser"
