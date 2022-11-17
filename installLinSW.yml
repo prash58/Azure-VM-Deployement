@@ -22,3 +22,9 @@
       when: apache=="Yes"
       become: true
     #- ping:
+    - name: Install nginx
+      ansible.builtin.yum:
+        name: nginx
+        state: latest
+      when: nginx=="Yes"
+      become: true
