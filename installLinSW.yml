@@ -11,6 +11,7 @@
     ansible_ssh_user: "testuser"
     ansible_ssh_pass: "pass@123"
     ansible_connection: ssh
+    become: true
     #ansible_winrm_server_cert_validation: ignore
     #connection_type: basic
   tasks:
