@@ -20,4 +20,5 @@
         name: httpd
         state: latest
       when: apache=="Yes"
+      become: true
     #- ping:
