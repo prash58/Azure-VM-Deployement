@@ -16,7 +16,7 @@
   tasks:
     #- win_ping:
     - name: Install the Chrome
-      ansible.windows.win_package:
+      win_package:
         path: http://dl.google.com/chrome/install/375.126/chrome_installer.exe
         #product_id: '{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}'
         arguments: /install /passive /norestart
