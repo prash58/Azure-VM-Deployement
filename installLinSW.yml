@@ -1,0 +1,22 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Adding host to temporary inventory
+      add_host:
+        name: "{{vm_name}}"
+        group: temphost
+
+- hosts: temphost
+  vars:
+    ansible_ssh_user: "testuser"
+    ansible_ssh_password: "pass@123"
+    ansible_connection: ssh
+    #ansible_winrm_server_cert_validation: ignore
+    #connection_type: basic
+  tasks:
+    #- name: Install the latest version of Apache
+    #  ansible.builtin.yum:
+    #    name: httpd
+    #    state: latest
+    #  when: apache=="Yes"
+    - ping:
