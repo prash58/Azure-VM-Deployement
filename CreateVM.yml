@@ -16,6 +16,7 @@
         image:
           publisher:  microsoftwindowsserver
           offer: windowsserver
-          sku: 2022-datacenter-azure-edition-core
+          #sku: 2022-datacenter-azure-edition-core
+          sku: 2016-datacenter-ARM
           version: latest
-        public_ip_allocation_method: Disabled
+        #public_ip_allocation_method: Disabled
