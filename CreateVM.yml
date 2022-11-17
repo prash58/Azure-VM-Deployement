@@ -21,4 +21,4 @@
           publisher: MicrosoftWindowsServer
           sku: 2016-Datacenter
           version: latest
-        public_ip_allocation_method: Disabled
+        #public_ip_allocation_method: Disabled
