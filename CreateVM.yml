@@ -14,9 +14,11 @@
         managed_disk_type: Standard_LRS
         os_type: Windows
         image:
-          publisher:  microsoftwindowsserver
-          offer: windowsserver
+          #publisher:  microsoftwindowsserver
+          #offer: windowsserver
           #sku: 2022-datacenter-azure-edition-core
-          sku: 2016-datacenter-smalldisk-ARM
+          offer: WindowsServer
+          publisher: MicrosoftWindowsServer
+          sku: 2016-Datacenter
           version: latest
         #public_ip_allocation_method: Disabled
