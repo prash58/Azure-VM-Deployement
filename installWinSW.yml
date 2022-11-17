@@ -39,3 +39,9 @@
         name: "notepadplusplus"
         state: present
       when: notepad=="Yes"
+
+    - name: install Git
+      win_chocolatey:
+        name: "git"
+        state: present
+      when: git=="Yes"
