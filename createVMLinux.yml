@@ -11,8 +11,7 @@
         admin_username: "testuser"
         admin_password: "pass@123"
         vm_size: Standard_B1s
-        managed_disk_type: Standard_LRS
-        
+        managed_disk_type: Standard_LRS  
         image:
           publisher: oracle
           offer: oracle-linux
