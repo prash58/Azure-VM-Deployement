@@ -25,7 +25,7 @@
     - name: install chrome
       win_chocolatey:
         name: "googlechrome"
-        state: absent
+        state: present
       when: chrome=="Yes"
     
     - name: install 7Zip
@@ -55,5 +55,5 @@
     - name: install FileZilla
       win_chocolatey:
         name: "filezilla"
-        state: absent
+        state: present
       when: filezilla=="Yes"
