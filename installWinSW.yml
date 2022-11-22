@@ -25,35 +25,35 @@
     - name: install chrome
       win_chocolatey:
         name: "googlechrome"
-        state: absent
+        state: present
       when: chrome=="Yes"
     
     - name: install 7Zip
       win_chocolatey:
         name: "7zip"
-        state: absent
+        state: present
       when: zip=="Yes"
 
     - name: install Notepad ++
       win_chocolatey:
         name: "notepadplusplus"
-        state: absent
+        state: present
       when: notepad=="Yes"
 
     - name: install Git
       win_chocolatey:
         name: "git"
-        state: absent
+        state: present
       when: git=="Yes"
 
     - name: install Putty
       win_chocolatey:
         name: "putty"
-        state: absent
+        state: present
       when: putty=="Yes"
 
     - name: install FileZilla
       win_chocolatey:
         name: "filezilla"
-        state: absent
+        state: present
       when: filezilla=="Yes"
